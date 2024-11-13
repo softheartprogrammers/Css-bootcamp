@@ -1,0 +1,16 @@
+.out{
+    display: grid;
+    background-color: red;
+    padding: 10px;
+    grid-template-columns: auto auto; /* can have more than 3 auto */
+    /* grid-template-columns: auto auto auto; /* can have more than 3 auto */
+
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.out > div{
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
